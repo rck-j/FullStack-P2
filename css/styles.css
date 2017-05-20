@@ -1,0 +1,23 @@
+nav {
+  height: 15vh;
+  width: 100vw;
+  box-shadow: 0px 5px 10px #888888;
+}
+
+footer {
+  height: 15vh;
+  width: 100vw;
+  box-shadow: 0px -5px 10px #888888;
+}
+
+#main {
+  margin: auto;
+  height: 70vh;
+  max-width: 75vw;
+  border: 2px solid black;
+}
+
+#me {
+  margin: 20px;
+  border: 2px solid black;
+}
