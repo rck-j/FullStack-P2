@@ -5,15 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="css/styles.css" rel="stylesheet">
+  <script src="./drawing.js"></script>
 
   <title>Rick</title>
 
 </head>
-<body>
+<body onload="runIt();">
   <nav>
   </nav>
   <div id="main">
-  <img id="me" src="img/me copy.png" alt="Picture of me">
+    <div class="wrapper">
+      <div class="one">
+        <canvas id="firstCanvas"></canvas>
+      </div>
+      <div class="two">
+        <canvas id="secondCanvas"></canvas>
+      </div>
+      <div class="three">
+        <canvas id="thirdCanvas"></canvas>
+      </div>
+      <div class="four">
+        <canvas id="fourthCanvas"></canvas>
+      </div>
+  </div>
   </div>
   <footer>
   </footer>

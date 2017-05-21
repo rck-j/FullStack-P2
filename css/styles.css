@@ -10,14 +10,55 @@ footer {
   box-shadow: 0px -5px 10px #888888;
 }
 
+canvas {
+  /*border: 2px solid black;*/
+  height: 100%;
+  width: 100%;
+}
+
 #main {
   margin: auto;
   height: 70vh;
   max-width: 75vw;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 
 #me {
   margin: 20px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
+}
+
+.wrapper {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /*border: 2px solid black;*/
+}
+
+.one {
+  grid-row: 1;
+  grid-column: 1;
+  /*border: 2px solid black;*/
+}
+
+.two {
+  grid-row: 1;
+  grid-column: 2;
+  /*border: 2px solid black;*/
+
+}
+
+.three {
+  grid-row: 2;
+  grid-column: 1;
+  /*border: 2px solid black;*/
+
+}
+
+.four {
+  grid-row: 2;
+  grid-column: 2;
+  /*border: 2px solid black;*/
+
 }
