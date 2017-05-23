@@ -32,9 +32,10 @@ function runIt() {
   //   ctx2.stroke();
   // }
 
-  ctx2.strokeStyle = '#DD0031'; // TODO make this random.
+  //ctx2.strokeStyle = '#DD0031'; // TODO make this random.
+  ctx2.strokeStyle = '#000000';
   for (var j = 0; j < 1500; j++) {
-    ctx2.lineWidth = 0.5;
+    ctx2.lineWidth = 0.25;
     ctx2.beginPath()
     var x = Math.random() * width;
     var y = Math.random() * height;
