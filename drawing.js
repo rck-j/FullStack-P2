@@ -42,7 +42,7 @@ function runIt() {
     var z = Math.random() * width;
     var a = Math.random() * height;
 
-    ctx2.moveTo(parseInt(z/2), parseInt(a/2))
+    ctx2.moveTo(parseInt(-1*(z/2)), parseInt(-1*(a/2)))
     ctx2.lineTo(z, a);
     ctx2.lineTo(y, x);
     ctx2.stroke();
