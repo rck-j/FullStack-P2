@@ -6,7 +6,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
   <link href="css/styles.css" rel="stylesheet">
-  <script src="./drawing.js"></script>
+  <script src="js/drawing.js"></script>
 
   <title>Rick</title>
 
@@ -14,12 +14,24 @@
 <body onload="runIt();">
 <div class="wrapper">
   <div class="header"></div>
-  <div class="title"><h1>Rick Jaramillo</h1></div>
-  <div class="tiles three"><canvas id="firstCanvas"></canvas></div>
-  <div class="tiles four"><canvas id="secondCanvas"></canvas></div>
-  <div class="tiles five">Five</div>
-  <div class="tiles six">Six</div>
-  <div class="seven">Seven</div>
+  <div class="title">
+    <div class="titleText">
+      <h1>Rick Jaramillo / <span>Full Stack Developer</span></h1>
+    </div>
+  </div>
+  <div class="three">
+    <canvas class="tiles"></canvas>
+  </div>
+  <div class="four sourcecode">
+    <a href="https://github.com/rck-j/FullStack-P2"><canvas class="tiles"></canvas></a>
+  </div>
+  <div class="five github">
+    <a href="https://github.com/rck-j"><canvas class="tiles"></canvas></a>
+  </div>
+  <div class="six linkedin">
+    <a href="https://www.linkedin.com/in/rckjaramillo/"><canvas class="tiles"></canvas></a>
+  </div>
+  <div class="seven"></div>
 </div>
 </body>
 </html>
