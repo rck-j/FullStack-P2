@@ -17,18 +17,18 @@ function drawIt(canvases) {
     var FONT_FACE   = 'Oleo Script';
     var FONT_STYLE  = 'bold';
     var LINE_WIDTH  = .5;
-    var LINKS       = ["AboutMe", "SourceCode", "GitHub", "LinkedIn"];
+    var LINKS       = ["AboutMe", "this.SourceCode", "GitHub", "LinkedIn"];
 
     var c = drawings[i];
     var width = c.width;
     var height = c.height;
     var ctx2 = c.getContext('2d');
 
-    ctx2.strokeStyle = '#DD0031';
-    // ctx2.strokeStyle = '#000000';
+    // ctx2.strokeStyle = '#DD0031';
+    ctx2.strokeStyle = '#000000';
 
-    for (var j = 0; j < 800; j++) {
-      ctx2.lineWidth = 0.75;
+    for (var j = 0; j < 7000; j++) {
+      ctx2.lineWidth = 0.10;
       ctx2.beginPath()
 
       var x = Math.random() * width;
