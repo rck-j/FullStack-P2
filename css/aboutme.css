@@ -1,0 +1,46 @@
+.image {
+
+}
+
+.container {
+
+}
+
+.aboutMeText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  max-width: 960px;
+  padding: 5%;
+
+}
+
+img {
+  max-width: 30vw;
+  max-height: 30vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  font-family: 'Oleo Script', sans-serif;
+  font-size: 2em;
+}
+
+@media (max-width: 600px) {
+  img {
+    max-width: 40vw;
+    max-height: 40vw;
+  }
+
+  .aboutMeText {
+    font-size: 1.5em;
+  }
+
+}
